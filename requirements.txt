@@ -8,6 +8,7 @@ imageio-ffmpeg
 moviepy
 numpy
 scipy
+scikit-image
 gdown
 
 # NOTE: ibug.face_detection and ibug.face_alignment are intentionally not
