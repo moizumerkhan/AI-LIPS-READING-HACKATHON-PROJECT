@@ -1,0 +1,16 @@
+# Cloned/downloaded automatically by model_setup.py — large binaries, don't commit
+vsr/
+*.zip
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Uploaded/temp test videos
+*.mp4
+*.mov
+*.avi
+tmp/
