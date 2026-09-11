@@ -1,6 +1,7 @@
 streamlit
 torch>=2.0.0
 torchvision>=0.15.0
+torchaudio>=2.0.0
 opencv-python-headless
 imageio
 imageio-ffmpeg
@@ -9,7 +10,7 @@ numpy
 scipy
 gdown
 
-# NOTE: ibug.face_detection and ibug.face_alignment are intentionally NOT
+# NOTE: ibug.face_detection and ibug.face_alignment are intentionally not
 # listed here. Their setup.py does not package subfolders correctly under
-# a normal `pip install`, so model_setup.py clones them directly and adds
+# a normal 'pip install', so model_setup.py clones them directly and adds
 # them to sys.path at runtime instead.
